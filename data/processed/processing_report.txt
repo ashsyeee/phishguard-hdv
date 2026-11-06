@@ -1,0 +1,25 @@
+PhishGuard-HDV - data processing report
+=============================================
+total rows                  : 220280
+
+rows per category (full set):
+category
+real_legitimate          134820
+real_phishing             85257
+hallucinated                200
+real_but_misdescribed         3
+
+rows per split:
+category  hallucinated  real_but_misdescribed  real_legitimate  real_phishing
+split                                                                        
+test                31                      0            20276          12735
+train              139                      3            94213          59841
+val                 30                      0            20331          12681
+
+leakage check (registrable domains per split must be disjoint):
+  train domains: 154196
+  val   domains: 33042
+  test  domains: 33042
+  overlap (train&test): 0
+  overlap (train&val) : 0
+  overlap (val&test)  : 0

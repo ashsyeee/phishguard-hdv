@@ -1,0 +1,40 @@
+url,label
+# ---------------------------------------------------------------------------
+# Malaysian hold-out set. label = legit | phishing
+# Add real URLs you care about. Do NOT put live malicious URLs you would visit;
+# use descriptive lookalikes for the phishing class (they only need to look like
+# the attack pattern you want the model to catch).
+#
+# Legit: the real brand domains (+ a few common Malaysian sites).
+# ---------------------------------------------------------------------------
+https://www.maybank2u.com.my/,legit
+https://www.cimbclicks.com.my/,legit
+https://www.rhbgroup.com/,legit
+https://www.hlb.com.my/,legit
+https://www.pbebank.com/,legit
+https://www.bankislam.com.my/,legit
+https://www.bsn.com.my/,legit
+https://www.ambank.com.my/,legit
+https://www.affinbank.com.my/,legit
+https://www.touchngo.com.my/,legit
+https://www.mygov.com.my/,legit
+https://www.malaysia.gov.my/,legit
+https://www.lazada.com.my/,legit
+https://www.shopee.com.my/,legit
+https://www.grab.com/my/,legit
+https://www.airasia.com/,legit
+https://www.maybank2u.com.my/login,legit
+https://www.cimbclicks.com.my/ib/Login.jsp,legit
+# ---------------------------------------------------------------------------
+# Phishing patterns: lookalike / typosquat / credential-harvest shapes.
+# ---------------------------------------------------------------------------
+https://maybank2u-secure-login.com/verify,phishing
+https://maybank2u.com.my.secure-login.xyz/account,phishing
+https://cimbclicks-verify.com/login,phishing
+https://cimbclicks.com.my.login-secure.net,phishing
+https://rhbgroup-online.com/ibs,phishing
+https://touchngo-reload.com/topup,phishing
+https://maybank2u-account-verify.tk/,phishing
+https://hlb-onlinebanking.com/login,phishing
+https://pbebank-secure.com/ib,phishing
+https://bankislam-login.com/verify,phishing

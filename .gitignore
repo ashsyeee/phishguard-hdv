@@ -1,0 +1,54 @@
+api_key.txt
+# Additional secret protection
+.env.*
+!.env.example
+api_key
+api_key.*
+# --- Secrets ---
+.env
+
+# --- Virtual environments ---
+venv/
+.venv/
+
+# --- Python caches ---
+**__pycache__/
+*.pyc
+
+# --- Large / regenerated artifacts ---
+# models/ is NOT ignored: the trained RF/XGBoost models are required at runtime
+# (and by Streamlit Community Cloud, which builds from the repo).
+data/raw/
+
+# --- Runtime database ---
+phishguard.db
+*.db-wal
+*.db-shm
+
+# --- Runtime caches (regenerated automatically at run time) ---
+data/processed/openphish_feed.txt
+
+# --- Test / tooling caches ---
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Alternative and backup trained models
+models_v2/
+models_backup_*/
+
+# API key files
+api key.txt
+
+# Local deployment preparation files
+git_files.txt
+
+# Unnecessary generated files
+Initialized
+
+# Academic documents and development materials
+docs/fyp/
+data/journal/
+
+# Large raw training datasets
+data/LegitPhish Dataset/
+data/Phishing dataset/

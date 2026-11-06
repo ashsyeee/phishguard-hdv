@@ -1,0 +1,28 @@
+# PhishGuard-HDV dependencies
+# Python 3.11-3.13 recommended. Python 3.14 wheels may lag for some packages
+# (most notably xgboost). If pip install fails on 3.14, create the venv with
+# Python 3.12 instead and re-run.
+
+# --- Data / ML ---
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+joblib>=1.3
+
+# --- Networking / verification ---
+requests>=2.31
+python-whois>=0.8
+dnspython>=2.4
+tldextract>=5.0
+
+# --- LLM (Gemini) ---
+google-genai>=0.5
+python-dotenv>=1.0
+
+# --- Dashboard ---
+streamlit>=1.28
+plotly>=5.20
+
+# --- Testing ---
+pytest>=7.4

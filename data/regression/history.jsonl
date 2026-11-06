@@ -1,0 +1,4 @@
+{"time": "2026-10-28T03:51:53", "label": "live-both-v2", "model_dir": "models", "mode": "classifier", "n": 41, "phishing_recall": 0.8182, "legit_specificity": 0.8667, "auc": 0.9, "errors": 6}
+{"time": "2026-10-28T04:01:27", "label": "full-with-page-check", "model_dir": "models", "mode": "full", "n": 41, "phishing_recall": 0.1818, "legit_specificity": 0.9667, "auc": 0.5742, "errors": 10}
+{"time": "2026-10-28T04:10:21", "label": "live-before-fuzzy-fix", "model_dir": "models", "mode": "classifier", "n": 54, "phishing_recall": 0.8182, "legit_specificity": 0.8605, "auc": 0.8964, "errors": 8}
+{"time": "2026-10-28T04:10:27", "label": "retrained-fuzzy-fix", "model_dir": "models_v2\\both", "mode": "classifier", "n": 54, "phishing_recall": 0.8182, "legit_specificity": 0.8372, "auc": 0.8901, "errors": 9}
