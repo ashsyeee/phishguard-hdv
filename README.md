@@ -73,6 +73,10 @@ All keys are optional: a missing key makes that source show as unavailable and
 it is never counted as clean. The app mirrors `st.secrets` into the environment
 at startup, so no code change is needed.
 
+After saving secrets, use the app's **⋮ → Reboot** menu once. The LLM client is
+cached per process, so a key added after the app first booted is only picked up
+after a reboot.
+
 Never commit `.env`, `.streamlit/secrets.toml`, or `api key.txt` — they are in
 `.gitignore`.
 
