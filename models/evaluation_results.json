@@ -1,0 +1,148 @@
+{
+  "model_type": "RandomForest + XGBoost ensemble (mean probability)",
+  "phishing_threshold": 0.5,
+  "n_test_real_rows": 33011,
+  "label_convention": "PhiUSIIL: 1=legitimate, 0=phishing (mapped to is_phishing)",
+  "metrics": {
+    "ensemble": {
+      "accuracy": 0.9974251007240011,
+      "precision": 0.9992107340173638,
+      "recall": 0.9941107184923439,
+      "f1": 0.9966542019287542,
+      "roc_auc": 0.9985803915390461,
+      "confusion_matrix": {
+        "tn": 20266,
+        "fp": 10,
+        "fn": 75,
+        "tp": 12660
+      },
+      "ece": 0.0004979945567682546,
+      "brier": 0.0024810358644117244,
+      "calibrated": true,
+      "raw": {
+        "accuracy": 0.9974856865893187,
+        "precision": 0.9992108585858586,
+        "recall": 0.9942677659992147,
+        "f1": 0.9967331837682528,
+        "roc_auc": 0.9984720050581133,
+        "confusion_matrix": {
+          "tn": 20266,
+          "fp": 10,
+          "fn": 73,
+          "tp": 12662
+        },
+        "ece": 0.0013873695306477725,
+        "brier": 0.0025602371290340976
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.997122171397413,
+      "precision": 0.9983441097618672,
+      "recall": 0.9941892422457793,
+      "f1": 0.9962623441004053,
+      "roc_auc": 0.9980258436714292,
+      "confusion_matrix": {
+        "tn": 20255,
+        "fp": 21,
+        "fn": 74,
+        "tp": 12661
+      },
+      "ece": 0.003029968746634864,
+      "brier": 0.0027983697084740158
+    },
+    "xgboost": {
+      "accuracy": 0.9973039289933658,
+      "precision": 0.9990528808208367,
+      "recall": 0.9939536709854732,
+      "f1": 0.9964967526077544,
+      "roc_auc": 0.9986256794051279,
+      "confusion_matrix": {
+        "tn": 20264,
+        "fp": 12,
+        "fn": 77,
+        "tp": 12658
+      },
+      "ece": 0.0004912469625200864,
+      "brier": 0.0024985493775980337
+    }
+  },
+  "confusion_matrix": {
+    "tn": 20266,
+    "fp": 10,
+    "fn": 75,
+    "tp": 12660
+  },
+  "per_model": {
+    "random_forest": {
+      "accuracy": 0.997122171397413,
+      "precision": 0.9983441097618672,
+      "recall": 0.9941892422457793,
+      "f1": 0.9962623441004053,
+      "roc_auc": 0.9980258436714292,
+      "confusion_matrix": {
+        "tn": 20255,
+        "fp": 21,
+        "fn": 74,
+        "tp": 12661
+      },
+      "ece": 0.003029968746634864,
+      "brier": 0.0027983697084740158
+    },
+    "xgboost": {
+      "accuracy": 0.9973039289933658,
+      "precision": 0.9990528808208367,
+      "recall": 0.9939536709854732,
+      "f1": 0.9964967526077544,
+      "roc_auc": 0.9986256794051279,
+      "confusion_matrix": {
+        "tn": 20264,
+        "fp": 12,
+        "fn": 77,
+        "tp": 12658
+      },
+      "ece": 0.0004912469625200864,
+      "brier": 0.0024985493775980337
+    }
+  },
+  "ensemble": {
+    "accuracy": 0.9974251007240011,
+    "precision": 0.9992107340173638,
+    "recall": 0.9941107184923439,
+    "f1": 0.9966542019287542,
+    "roc_auc": 0.9985803915390461,
+    "confusion_matrix": {
+      "tn": 20266,
+      "fp": 10,
+      "fn": 75,
+      "tp": 12660
+    },
+    "ece": 0.0004979945567682546,
+    "brier": 0.0024810358644117244,
+    "calibrated": true,
+    "raw": {
+      "accuracy": 0.9974856865893187,
+      "precision": 0.9992108585858586,
+      "recall": 0.9942677659992147,
+      "f1": 0.9967331837682528,
+      "roc_auc": 0.9984720050581133,
+      "confusion_matrix": {
+        "tn": 20266,
+        "fp": 10,
+        "fn": 73,
+        "tp": 12662
+      },
+      "ece": 0.0013873695306477725,
+      "brier": 0.0025602371290340976
+    }
+  },
+  "calibration": {
+    "applied": true,
+    "method": "isotonic regression (fit on validation split)",
+    "n_val_real_rows": 33012,
+    "raw_ece": 0.0013873695306477725,
+    "calibrated_ece": 0.0004979945567682546,
+    "raw_brier": 0.0025602371290340976,
+    "calibrated_brier": 0.0024810358644117244
+  },
+  "note": "Recall is prioritised: missing a phishing URL is worse than a false alert. Held-out split is GROUPED BY DOMAIN (no domain straddles train/test), so these numbers are leak-free."
+}

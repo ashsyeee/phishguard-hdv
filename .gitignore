@@ -1,0 +1,24 @@
+# --- Secrets (never commit) ---
+.env
+.streamlit/secrets.toml
+api key.txt
+
+# --- Virtual environments ---
+venv/
+.venv/
+
+# --- Python caches ---
+**__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Runtime database (recreated on first run) ---
+phishguard.db
+*.db-wal
+*.db-shm
+
+# --- Community reports (user submissions; recreated at run time) ---
+data/community_reports.xlsx
+
+# --- Runtime caches ---
+data/processed/openphish_feed.txt

@@ -1,0 +1,393 @@
+{
+  "n_rows": 28,
+  "threshold": 0.5,
+  "with_verification": false,
+  "metrics": {
+    "tn": 0,
+    "fp": 18,
+    "fn": 0,
+    "tp": 10,
+    "specificity": 0.0,
+    "false_alarm_rate": 1.0,
+    "legit_precision_npv": 0.0,
+    "phishing_recall": 1.0,
+    "n_legit": 18,
+    "n_phish": 10
+  },
+  "roc_auc": 0.6416666666666666,
+  "errors": {
+    "false_negatives_phishing_missed": [],
+    "false_positives_legit_flagged": [
+      {
+        "url": "https://www.maybank2u.com.my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.cimbclicks.com.my/",
+        "label": 0,
+        "score": 0.9355,
+        "ml": 0.9355,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.rhbgroup.com/",
+        "label": 0,
+        "score": 0.9441,
+        "ml": 0.9441,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.hlb.com.my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.pbebank.com/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.bankislam.com.my/",
+        "label": 0,
+        "score": 0.9355,
+        "ml": 0.9355,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.bsn.com.my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.ambank.com.my/",
+        "label": 0,
+        "score": 0.9355,
+        "ml": 0.9355,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.affinbank.com.my/",
+        "label": 0,
+        "score": 0.9355,
+        "ml": 0.9355,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.touchngo.com.my/",
+        "label": 0,
+        "score": 0.9355,
+        "ml": 0.9355,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.mygov.com.my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.malaysia.gov.my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.lazada.com.my/",
+        "label": 0,
+        "score": 0.9355,
+        "ml": 0.9355,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.shopee.com.my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.grab.com/my/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.airasia.com/",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.maybank2u.com.my/login",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      },
+      {
+        "url": "https://www.cimbclicks.com.my/ib/Login.jsp",
+        "label": 0,
+        "score": 1.0,
+        "ml": 1.0,
+        "verification": null,
+        "predicted": 1
+      }
+    ]
+  },
+  "per_row": [
+    {
+      "url": "https://www.maybank2u.com.my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.cimbclicks.com.my/",
+      "label": 0,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.rhbgroup.com/",
+      "label": 0,
+      "score": 0.9441,
+      "ml": 0.9441,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.hlb.com.my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.pbebank.com/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.bankislam.com.my/",
+      "label": 0,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.bsn.com.my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.ambank.com.my/",
+      "label": 0,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.affinbank.com.my/",
+      "label": 0,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.touchngo.com.my/",
+      "label": 0,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.mygov.com.my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.malaysia.gov.my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.lazada.com.my/",
+      "label": 0,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.shopee.com.my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.grab.com/my/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.airasia.com/",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.maybank2u.com.my/login",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://www.cimbclicks.com.my/ib/Login.jsp",
+      "label": 0,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://maybank2u-secure-login.com/verify",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://maybank2u.com.my.secure-login.xyz/account",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://cimbclicks-verify.com/login",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://cimbclicks.com.my.login-secure.net",
+      "label": 1,
+      "score": 0.9355,
+      "ml": 0.9355,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://rhbgroup-online.com/ibs",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://touchngo-reload.com/topup",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://maybank2u-account-verify.tk/",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://hlb-onlinebanking.com/login",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://pbebank-secure.com/ib",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    },
+    {
+      "url": "https://bankislam-login.com/verify",
+      "label": 1,
+      "score": 1.0,
+      "ml": 1.0,
+      "verification": null,
+      "predicted": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# PhishGuard-HDV - Streamlit Community Cloud dependencies
+# Use Python 3.13 (or 3.12) in the Streamlit Cloud advanced settings.
+
+# --- Data / ML ---
+pandas>=2.0,<4
+numpy>=1.24,<3
+scikit-learn>=1.3,<2
+xgboost>=2.0,<4
+joblib>=1.3
+
+# --- Networking / verification ---
+requests>=2.31
+python-whois>=0.8
+dnspython>=2.4
+tldextract>=5.0
+
+# --- LLM (Gemini) ---
+google-genai>=0.5
+python-dotenv>=1.0
+
+# --- Dashboard ---
+streamlit>=1.28,<2
+plotly>=5.20
+
+# --- Community report review (Excel) ---
+openpyxl>=3.1
