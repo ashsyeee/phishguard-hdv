@@ -1,5 +1,7 @@
 # PhishGuard-HDV — Streamlit Cloud deployment
 
+Deployed app: <https://phishguard-hdv-ggbmjpqnehzpypzsuuyx4x.streamlit.app/>
+
 This folder is the trimmed, deployment-ready copy of PhishGuard-HDV. It contains
 only what the app needs at runtime:
 
@@ -51,7 +53,7 @@ The largest file is `models/random_forest.pkl` (~90 MB), which is below GitHub's
    - **Repository:** `<your-username>/<repo-name>`
    - **Branch:** `main`
    - **Main file path:** `app.py`
-4. Open **Advanced settings** and select **Python 3.13** (3.12 also works).
+4. Open **Advanced settings** and select **Python 3.14** (3.13 and 3.12 also work).
 5. Click **Deploy**.
 
 ## 4. Add the API keys as Secrets
