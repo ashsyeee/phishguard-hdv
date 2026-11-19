@@ -1,0 +1,749 @@
+{
+  "n": 123,
+  "fabricated_flagged_phishing": 38,
+  "fabricated_flagged_clean": 45,
+  "existing_flagged_phishing": 3,
+  "existing_flagged_clean": 37,
+  "fabricated_receiving_a_threat_judgement": 83,
+  "note": "A classifier without an existence stage must judge every indicator, including the 83 that refer to nothing.",
+  "per_indicator": [
+    {
+      "url": "https://www.maybank2u.com.my",
+      "exists": true,
+      "score": 0.0618,
+      "flagged": false
+    },
+    {
+      "url": "https://maybank2u-online.com",
+      "exists": false,
+      "score": 0.217,
+      "flagged": false
+    },
+    {
+      "url": "https://maybank2u-login.com",
+      "exists": false,
+      "score": 0.2956,
+      "flagged": false
+    },
+    {
+      "url": "https://maybank2u-verify.com",
+      "exists": false,
+      "score": 0.2607,
+      "flagged": false
+    },
+    {
+      "url": "https://my-maybank2u.com",
+      "exists": false,
+      "score": 0.2122,
+      "flagged": false
+    },
+    {
+      "url": "https://maybank2u-security.com",
+      "exists": false,
+      "score": 0.2549,
+      "flagged": false
+    },
+    {
+      "url": "https://www.cimb.com.my",
+      "exists": true,
+      "score": 0.0002,
+      "flagged": false
+    },
+    {
+      "url": "https://www.cimbclicks.com.my",
+      "exists": true,
+      "score": 0.0217,
+      "flagged": false
+    },
+    {
+      "url": "http://cimbclicks.com-sec.top",
+      "exists": false,
+      "score": 0.3699,
+      "flagged": false
+    },
+    {
+      "url": "http://cimb-clicks-my.com",
+      "exists": false,
+      "score": 0.6367,
+      "flagged": true
+    },
+    {
+      "url": "http://cimb-tac-verification.com",
+      "exists": false,
+      "score": 0.8885,
+      "flagged": true
+    },
+    {
+      "url": "http://cimb-online-auth.com",
+      "exists": false,
+      "score": 0.8255,
+      "flagged": true
+    },
+    {
+      "url": "https://www.touchngo.com.my",
+      "exists": true,
+      "score": 0.0201,
+      "flagged": false
+    },
+    {
+      "url": "https://www.tngdigital.com.my",
+      "exists": true,
+      "score": 0.0003,
+      "flagged": false
+    },
+    {
+      "url": "https://touchngo-claim.top",
+      "exists": false,
+      "score": 0.109,
+      "flagged": false
+    },
+    {
+      "url": "https://touchngo-my.top",
+      "exists": false,
+      "score": 0.1507,
+      "flagged": false
+    },
+    {
+      "url": "https://tng-my.site",
+      "exists": false,
+      "score": 0.1144,
+      "flagged": false
+    },
+    {
+      "url": "https://tng-ewallet-verify.com",
+      "exists": false,
+      "score": 0.2806,
+      "flagged": false
+    },
+    {
+      "url": "https://www.rhbgroup.com",
+      "exists": true,
+      "score": 0.005,
+      "flagged": false
+    },
+    {
+      "url": "https://www.rhbclicks.com.my",
+      "exists": false,
+      "score": 0.0123,
+      "flagged": false
+    },
+    {
+      "url": "https://rhbclicks-online.com",
+      "exists": false,
+      "score": 0.1543,
+      "flagged": false
+    },
+    {
+      "url": "https://rhb-login-my.com",
+      "exists": false,
+      "score": 0.2372,
+      "flagged": false
+    },
+    {
+      "url": "https://rhbclicks-my.com",
+      "exists": false,
+      "score": 0.1559,
+      "flagged": false
+    },
+    {
+      "url": "https://rhb-update-security.com",
+      "exists": false,
+      "score": 0.2757,
+      "flagged": false
+    },
+    {
+      "url": "https://rhbclicks-verify.com",
+      "exists": false,
+      "score": 0.1995,
+      "flagged": false
+    },
+    {
+      "url": "https://www.maybank2u.com.my",
+      "exists": true,
+      "score": 0.0618,
+      "flagged": false
+    },
+    {
+      "url": "http://maybank2u-online.com",
+      "exists": false,
+      "score": 0.8248,
+      "flagged": true
+    },
+    {
+      "url": "http://maybank2u-login.com",
+      "exists": false,
+      "score": 0.927,
+      "flagged": true
+    },
+    {
+      "url": "http://maybank2u-my.com",
+      "exists": false,
+      "score": 0.7078,
+      "flagged": true
+    },
+    {
+      "url": "http://maybank2u-update.com",
+      "exists": false,
+      "score": 0.8952,
+      "flagged": true
+    },
+    {
+      "url": "http://maybank2u-app.com",
+      "exists": false,
+      "score": 0.6903,
+      "flagged": true
+    },
+    {
+      "url": "http://maybank2u-verify.com",
+      "exists": false,
+      "score": 0.9111,
+      "flagged": true
+    },
+    {
+      "url": "https://www.pbebank.com",
+      "exists": true,
+      "score": 0.0,
+      "flagged": false
+    },
+    {
+      "url": "https://www.publicbank.com.my",
+      "exists": true,
+      "score": 0.0217,
+      "flagged": false
+    },
+    {
+      "url": "https://www.hlb.com.my",
+      "exists": true,
+      "score": 0.0135,
+      "flagged": false
+    },
+    {
+      "url": "https://www.hongleongconnect.my",
+      "exists": true,
+      "score": 0.0168,
+      "flagged": false
+    },
+    {
+      "url": "http://pbebank-online-my.com",
+      "exists": false,
+      "score": 0.8924,
+      "flagged": true
+    },
+    {
+      "url": "http://pbebank.com.online-verification-my.com",
+      "exists": false,
+      "score": 0.8315,
+      "flagged": true
+    },
+    {
+      "url": "http://pbebank-login-update.com",
+      "exists": false,
+      "score": 0.9786,
+      "flagged": true
+    },
+    {
+      "url": "http://pbebank-security-my.com",
+      "exists": false,
+      "score": 0.9744,
+      "flagged": true
+    },
+    {
+      "url": "http://pbebank-my-login.com",
+      "exists": false,
+      "score": 0.9744,
+      "flagged": true
+    },
+    {
+      "url": "http://pbebank.online-my.com",
+      "exists": false,
+      "score": 0.8039,
+      "flagged": true
+    },
+    {
+      "url": "http://hlb-connect-online.com",
+      "exists": false,
+      "score": 0.7136,
+      "flagged": true
+    },
+    {
+      "url": "http://hongleongconnect-online.com",
+      "exists": false,
+      "score": 0.9007,
+      "flagged": true
+    },
+    {
+      "url": "http://connect-hlb-my.com",
+      "exists": false,
+      "score": 0.6248,
+      "flagged": true
+    },
+    {
+      "url": "http://hlbconnect-verification.com",
+      "exists": false,
+      "score": 0.8173,
+      "flagged": true
+    },
+    {
+      "url": "http://hongleongconnect.my-login-update.com",
+      "exists": false,
+      "score": 0.9983,
+      "flagged": true
+    },
+    {
+      "url": "http://hlbconnect.online-security-my.com",
+      "exists": false,
+      "score": 0.9635,
+      "flagged": true
+    },
+    {
+      "url": "https://shopee.com.my",
+      "exists": true,
+      "score": 0.1158,
+      "flagged": false
+    },
+    {
+      "url": "https://seller.shopee.com.my",
+      "exists": true,
+      "score": 0.0001,
+      "flagged": false
+    },
+    {
+      "url": "http://shopee-my.cc",
+      "exists": false,
+      "score": 0.5798,
+      "flagged": true
+    },
+    {
+      "url": "https://shopees-my.cc",
+      "exists": false,
+      "score": 0.1354,
+      "flagged": false
+    },
+    {
+      "url": "http://shopee.vip-mall.cc",
+      "exists": false,
+      "score": 0.858,
+      "flagged": true
+    },
+    {
+      "url": "https://shopee-login-my.com",
+      "exists": false,
+      "score": 0.232,
+      "flagged": false
+    },
+    {
+      "url": "https://mysejahtera-ebantuan.site",
+      "exists": false,
+      "score": 0.2327,
+      "flagged": false
+    },
+    {
+      "url": "http://mysejahtera-tng.com",
+      "exists": false,
+      "score": 0.3959,
+      "flagged": false
+    },
+    {
+      "url": "https://tng-mysejahtera.top",
+      "exists": false,
+      "score": 0.2125,
+      "flagged": false
+    },
+    {
+      "url": "http://mysejahtera-claim.site",
+      "exists": false,
+      "score": 0.9543,
+      "flagged": true
+    },
+    {
+      "url": "http://mysejahtera-bantuan.com",
+      "exists": false,
+      "score": 0.7835,
+      "flagged": true
+    },
+    {
+      "url": "https://lhdn-gov-my.top",
+      "exists": false,
+      "score": 0.1676,
+      "flagged": false
+    },
+    {
+      "url": "http://ebantuan-lhdn.com",
+      "exists": false,
+      "score": 0.3571,
+      "flagged": false
+    },
+    {
+      "url": "http://lhdn-my.com",
+      "exists": false,
+      "score": 0.2635,
+      "flagged": false
+    },
+    {
+      "url": "https://lhdn-semakan.site",
+      "exists": false,
+      "score": 0.2064,
+      "flagged": false
+    },
+    {
+      "url": "https://mysejahtera.malaysia.gov.my",
+      "exists": true,
+      "score": 0.0001,
+      "flagged": false
+    },
+    {
+      "url": "https://www.hasil.gov.my",
+      "exists": true,
+      "score": 0.0001,
+      "flagged": false
+    },
+    {
+      "url": "https://www.paypal.com",
+      "exists": true,
+      "score": 0.0017,
+      "flagged": false
+    },
+    {
+      "url": "https://www.paypal.com/signin",
+      "exists": true,
+      "score": 0.4427,
+      "flagged": false
+    },
+    {
+      "url": "http://paypal-service-update.com",
+      "exists": false,
+      "score": 0.9614,
+      "flagged": true
+    },
+    {
+      "url": "http://paypal-verification-account.com",
+      "exists": false,
+      "score": 0.9376,
+      "flagged": true
+    },
+    {
+      "url": "https://paypal.com-webscr.info",
+      "exists": false,
+      "score": 0.1694,
+      "flagged": false
+    },
+    {
+      "url": "http://paypal-account-management.com",
+      "exists": false,
+      "score": 0.9787,
+      "flagged": true
+    },
+    {
+      "url": "http://paypal-security-update-center.com",
+      "exists": false,
+      "score": 0.9695,
+      "flagged": true
+    },
+    {
+      "url": "https://paypal.com-cgi-bin-webscr-cmd-login-submit.info",
+      "exists": false,
+      "score": 0.8409,
+      "flagged": true
+    },
+    {
+      "url": "http://signin-paypal-account-update.com",
+      "exists": false,
+      "score": 0.953,
+      "flagged": true
+    },
+    {
+      "url": "http://paypal.com/",
+      "exists": true,
+      "score": 0.3669,
+      "flagged": false
+    },
+    {
+      "url": "http://paypal.com.attacker-domain.com/",
+      "exists": false,
+      "score": 0.8916,
+      "flagged": true
+    },
+    {
+      "url": "https://login.microsoftonline.com",
+      "exists": true,
+      "score": 0.0613,
+      "flagged": false
+    },
+    {
+      "url": "https://msrc.microsoft.com",
+      "exists": true,
+      "score": 0.0117,
+      "flagged": false
+    },
+    {
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "exists": true,
+      "score": 0.7567,
+      "flagged": true
+    },
+    {
+      "url": "https://dhl-parcel-tracking-update.com",
+      "exists": false,
+      "score": 0.2381,
+      "flagged": false
+    },
+    {
+      "url": "https://dhl-tracking-portal.info",
+      "exists": false,
+      "score": 0.2339,
+      "flagged": false
+    },
+    {
+      "url": "http://dhl-express-logistics.top",
+      "exists": false,
+      "score": 0.8598,
+      "flagged": true
+    },
+    {
+      "url": "https://dhl-delivery-notification.site",
+      "exists": false,
+      "score": 0.1911,
+      "flagged": false
+    },
+    {
+      "url": "http://dhl-deliver-status.com",
+      "exists": false,
+      "score": 0.8767,
+      "flagged": true
+    },
+    {
+      "url": "https://dhl-redirection-service.com",
+      "exists": false,
+      "score": 0.2312,
+      "flagged": false
+    },
+    {
+      "url": "https://www.dhl.com",
+      "exists": true,
+      "score": 0.0,
+      "flagged": false
+    },
+    {
+      "url": "https://www.dhl.com/global-en/home/foot/fraud-awareness.html",
+      "exists": true,
+      "score": 0.1823,
+      "flagged": false
+    },
+    {
+      "url": "https://appleid.apple.com",
+      "exists": true,
+      "score": 0.0017,
+      "flagged": false
+    },
+    {
+      "url": "https://www.icloud.com",
+      "exists": true,
+      "score": 0.0,
+      "flagged": false
+    },
+    {
+      "url": "https://support.apple.com",
+      "exists": true,
+      "score": 0.0017,
+      "flagged": false
+    },
+    {
+      "url": "https://appleid.apple.com-verify.com",
+      "exists": true,
+      "score": 0.3004,
+      "flagged": false
+    },
+    {
+      "url": "http://appleid.apple.com-app.com",
+      "exists": true,
+      "score": 0.4774,
+      "flagged": false
+    },
+    {
+      "url": "https://appleid-apple-com.info",
+      "exists": false,
+      "score": 0.2685,
+      "flagged": false
+    },
+    {
+      "url": "https://icloud-appleid.com",
+      "exists": false,
+      "score": 0.1311,
+      "flagged": false
+    },
+    {
+      "url": "https://appleid.apple.com.auth-service.com",
+      "exists": false,
+      "score": 0.322,
+      "flagged": false
+    },
+    {
+      "url": "https://apple-id-verify.info",
+      "exists": false,
+      "score": 0.4041,
+      "flagged": false
+    },
+    {
+      "url": "http://appleid.apple.com.id-support.info",
+      "exists": false,
+      "score": 0.5795,
+      "flagged": true
+    },
+    {
+      "url": "https://appleid-support-verify.com",
+      "exists": false,
+      "score": 0.3786,
+      "flagged": false
+    },
+    {
+      "url": "https://manage-appleid.com",
+      "exists": false,
+      "score": 0.1311,
+      "flagged": false
+    },
+    {
+      "url": "http://appleid.apple.com.attacker-domain.com/",
+      "exists": false,
+      "score": 0.8858,
+      "flagged": true
+    },
+    {
+      "url": "https://www.netflix.com",
+      "exists": true,
+      "score": 0.0033,
+      "flagged": false
+    },
+    {
+      "url": "https://help.netflix.com",
+      "exists": true,
+      "score": 0.0033,
+      "flagged": false
+    },
+    {
+      "url": "http://netflix-billing-update.com",
+      "exists": true,
+      "score": 0.949,
+      "flagged": true
+    },
+    {
+      "url": "https://netflix-account-update.com",
+      "exists": false,
+      "score": 0.3402,
+      "flagged": false
+    },
+    {
+      "url": "http://netflix-verification.com",
+      "exists": false,
+      "score": 0.8331,
+      "flagged": true
+    },
+    {
+      "url": "https://netflix-update-account.com",
+      "exists": false,
+      "score": 0.3402,
+      "flagged": false
+    },
+    {
+      "url": "https://amazon-prime-member-update.com",
+      "exists": false,
+      "score": 0.4908,
+      "flagged": false
+    },
+    {
+      "url": "https://amazon-prime-security-renewal.com",
+      "exists": false,
+      "score": 0.6307,
+      "flagged": true
+    },
+    {
+      "url": "https://prime-amazon-renewal-alert.com",
+      "exists": false,
+      "score": 0.4908,
+      "flagged": false
+    },
+    {
+      "url": "https://amz-prime-billing-update.com",
+      "exists": false,
+      "score": 0.2579,
+      "flagged": false
+    },
+    {
+      "url": "https://amazon-prime-account-renewal.site",
+      "exists": false,
+      "score": 0.3889,
+      "flagged": false
+    },
+    {
+      "url": "https://www.amazon.com",
+      "exists": true,
+      "score": 0.0017,
+      "flagged": false
+    },
+    {
+      "url": "https://www.amazon.com/gp/primecentral",
+      "exists": true,
+      "score": 0.2411,
+      "flagged": false
+    },
+    {
+      "url": "https://www.amazon.com/gp/help/customer/display.html",
+      "exists": true,
+      "score": 0.5303,
+      "flagged": true
+    },
+    {
+      "url": "https://urlhaus.abuse.ch",
+      "exists": true,
+      "score": 0.0,
+      "flagged": false
+    },
+    {
+      "url": "https://openphish.com",
+      "exists": true,
+      "score": 0.0931,
+      "flagged": false
+    },
+    {
+      "url": "https://phishtank.org",
+      "exists": true,
+      "score": 0.0956,
+      "flagged": false
+    },
+    {
+      "url": "https://cert.pl",
+      "exists": true,
+      "score": 0.111,
+      "flagged": false
+    },
+    {
+      "url": "https://sso-okta.com",
+      "exists": true,
+      "score": 0.0977,
+      "flagged": false
+    },
+    {
+      "url": "https://okta-helpdesk.com",
+      "exists": false,
+      "score": 0.187,
+      "flagged": false
+    },
+    {
+      "url": "https://kt-sso.com",
+      "exists": false,
+      "score": 0.0454,
+      "flagged": false
+    },
+    {
+      "url": "https://helpdesk-okta.com",
+      "exists": true,
+      "score": 0.1459,
+      "flagged": false
+    },
+    {
+      "url": "https://signin-okta.com",
+      "exists": false,
+      "score": 0.2478,
+      "flagged": false
+    }
+  ]
+}

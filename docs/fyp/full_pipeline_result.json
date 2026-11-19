@@ -1,0 +1,15 @@
+{
+  "n": 94,
+  "phishing_recall": 0.44,
+  "legit_specificity": 0.9773,
+  "auc": 0.7086,
+  "errors": 29,
+  "true_positive": 22,
+  "false_negative": 28,
+  "true_negative": 43,
+  "false_positive": 1,
+  "false_negatives_stage_a": 28,
+  "note": "Restricted evaluation network: DNS resolution failed for 28 phishing domains, so Stage A returned a non-existent result before Stage B ran. None of these URLs was reported as clean. The classifier-only run on the same set scored 48 of 50 phishing URLs correctly.",
+  "label": "post-fixes-full",
+  "time": "2026-11-09"
+}

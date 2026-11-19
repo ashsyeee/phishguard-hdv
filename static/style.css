@@ -1,0 +1,232 @@
+/* ============================================================
+   PhishGuard-HDV - SOC dark theme
+   Palette:
+     background #0a0e17  | panel #0f1624  | border #1c2b3f
+     accent #00d4ff      | text #e6edf3   | muted #8b98a5
+     success #2ecc71 amber #f5a623 danger #e74c3c
+   ============================================================ */
+
+:root {
+  --bg: #0a0e17;
+  --panel: #0f1624;
+  --border: #1c2b3f;
+  --accent: #00d4ff;
+  --text: #e6edf3;
+  --muted: #8b98a5;
+  --green: #2ecc71;
+  --amber: #f5a623;
+  --red: #e74c3c;
+  --gradient: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+/* Base surface */
+.stApp, [data-testid="stAppViewContainer"] {
+  background-color: var(--bg) !important;
+  color: var(--text);
+}
+[data-testid="stHeader"] {
+  background: transparent;
+}
+.block-container {
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
+  max-width: 1400px;
+}
+#MainMenu, footer { visibility: hidden; }
+
+/* ---------- Top header bar ---------- */
+.soc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.06);
+}
+.soc-header .title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+.soc-header .title .shield {
+  font-size: 1.5rem;
+}
+.soc-header .title .accent { color: var(--accent); }
+.soc-header .status {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-align: right;
+}
+.soc-header .status strong { color: var(--green); display: block; }
+
+/* ---------- Cards ---------- */
+.soc-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.soc-card.active, .soc-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 14px rgba(0, 212, 255, 0.15);
+}
+.soc-card .card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+}
+.soc-card .card-head .chev { color: var(--muted); }
+
+/* ---------- Labels / stat rows ---------- */
+.soc-label {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+.soc-value {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 600;
+  word-break: break-all;
+}
+.soc-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+  border-bottom: 1px dashed #16233a;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+.soc-check:last-child { border-bottom: none; }
+.soc-check .e-good   { color: var(--green); }
+.soc-check .e-warn   { color: var(--amber); }
+.soc-check .e-bad    { color: var(--red); }
+.soc-check .e-muted  { color: var(--muted); }
+
+/* ---------- Status badges ---------- */
+.soc-badge {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.b-verified, .b-legitimate, .b-low { background: rgba(46,204,113,.15); color: var(--green); border: 1px solid var(--green); }
+.b-suspicious, .b-medium { background: rgba(245,166,35,.15); color: var(--amber); border: 1px solid var(--amber); }
+.b-hallucination, .b-phishing, .b-high { background: rgba(231,76,60,.15); color: var(--red); border: 1px solid var(--red); }
+.b-unavailable, .b-unknown { background: rgba(139,152,165,.15); color: var(--muted); border: 1px solid var(--muted); }
+
+/* ---------- Warning banner ---------- */
+.soc-warn {
+  background: rgba(231, 76, 60, 0.12);
+  border: 1px solid var(--red);
+  border-left: 4px solid var(--red);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: var(--red);
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 0.92rem;
+}
+.soc-warn.amber {
+  background: rgba(245, 166, 35, 0.10);
+  border-color: var(--amber);
+  border-left-color: var(--amber);
+  color: var(--amber);
+}
+
+/* ---------- Buttons ---------- */
+.stButton > button {
+  background: var(--gradient) !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 8px 18px;
+  transition: transform 0.1s ease;
+}
+.stButton > button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 114, 255, 0.35);
+}
+
+/* ---------- Inputs ---------- */
+.stTextInput > div > div > input,
+.stTextArea textarea {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px !important;
+}
+.stTextInput > div > div > input:focus,
+.stTextArea textarea:focus {
+  border-color: var(--accent) !important;
+}
+
+/* ---------- Metrics / footer stat cards ---------- */
+.soc-stat {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.soc-stat .k {
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.soc-stat .v {
+  color: var(--text);
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+.soc-stat .accent-v { color: var(--accent); }
+
+/* ---------- Sidebar ---------- */
+[data-testid="stSidebar"] {
+  background-color: var(--panel);
+  border-right: 1px solid var(--border);
+}
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+  color: var(--accent);
+}
+section[data-testid="stSidebar"] .stRadio label { color: var(--text); }
+
+/* ---------- Dataframes / tables ---------- */
+[data-testid="stDataFrame"] {
+  background: var(--panel) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 10px;
+}
+[data-testid="stDataFrame"] * { color: var(--text) !important; }
+
+/* ---------- Misc text ---------- */
+.muted { color: var(--muted); font-size: 0.85rem; }
+.mono { font-family: "Consolas", monospace; }

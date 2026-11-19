@@ -1,0 +1,161 @@
+{
+  "measured_at": "2026-11-12T22:25:11+00:00",
+  "n_urls": 8,
+  "rounds": 2,
+  "workers": 6,
+  "deadline_s": 90.0,
+  "urls": [
+    "https://www.maybank2u.com.my",
+    "https://www.cimb.com.my",
+    "https://www.cimbclicks.com.my",
+    "https://www.touchngo.com.my",
+    "https://www.tngdigital.com.my",
+    "https://www.rhbgroup.com",
+    "https://www.pbebank.com",
+    "https://www.publicbank.com.my"
+  ],
+  "sequential": {
+    "report_latency_ms_median": 52143,
+    "per_url_p50_ms": 5028,
+    "per_url_p95_ms": 14832,
+    "runs": [
+      {
+        "workers": 1,
+        "meta": {
+          "n_urls": 8,
+          "n_completed": 8,
+          "n_deadline_exceeded": 0,
+          "n_failed": 0,
+          "deadline_s": 90.0,
+          "max_workers": 1,
+          "report_latency_ms": 53629,
+          "time_to_first_verdict_ms": 7806,
+          "latency_ms": {
+            "p50": 5276,
+            "p95": 15162,
+            "max": 15162
+          }
+        },
+        "label_counts": {
+          "Unverified": 2,
+          "Likely Safe": 6
+        },
+        "per_url_ms": {
+          "https://www.maybank2u.com.my": 7804,
+          "https://www.cimb.com.my": 4971,
+          "https://www.cimbclicks.com.my": 5276,
+          "https://www.touchngo.com.my": 5004,
+          "https://www.tngdigital.com.my": 4786,
+          "https://www.rhbgroup.com": 15162,
+          "https://www.pbebank.com": 4861,
+          "https://www.publicbank.com.my": 5760
+        }
+      },
+      {
+        "workers": 1,
+        "meta": {
+          "n_urls": 8,
+          "n_completed": 8,
+          "n_deadline_exceeded": 0,
+          "n_failed": 0,
+          "deadline_s": 90.0,
+          "max_workers": 1,
+          "report_latency_ms": 50658,
+          "time_to_first_verdict_ms": 7783,
+          "latency_ms": {
+            "p50": 4780,
+            "p95": 14502,
+            "max": 14502
+          }
+        },
+        "label_counts": {
+          "Unverified": 2,
+          "Likely Safe": 6
+        },
+        "per_url_ms": {
+          "https://www.maybank2u.com.my": 7781,
+          "https://www.cimb.com.my": 4681,
+          "https://www.cimbclicks.com.my": 4531,
+          "https://www.touchngo.com.my": 4437,
+          "https://www.tngdigital.com.my": 4572,
+          "https://www.rhbgroup.com": 14502,
+          "https://www.pbebank.com": 4780,
+          "https://www.publicbank.com.my": 5369
+        }
+      }
+    ]
+  },
+  "concurrent": {
+    "report_latency_ms_median": 14334,
+    "per_url_p50_ms": 6202,
+    "per_url_p95_ms": 14327,
+    "runs": [
+      {
+        "workers": 6,
+        "meta": {
+          "n_urls": 8,
+          "n_completed": 8,
+          "n_deadline_exceeded": 0,
+          "n_failed": 0,
+          "deadline_s": 90.0,
+          "max_workers": 6,
+          "report_latency_ms": 14274,
+          "time_to_first_verdict_ms": 5385,
+          "latency_ms": {
+            "p50": 6118,
+            "p95": 14267,
+            "max": 14267
+          }
+        },
+        "label_counts": {
+          "Unverified": 2,
+          "Likely Safe": 6
+        },
+        "per_url_ms": {
+          "https://www.maybank2u.com.my": 8495,
+          "https://www.cimb.com.my": 5383,
+          "https://www.cimbclicks.com.my": 5927,
+          "https://www.touchngo.com.my": 6118,
+          "https://www.tngdigital.com.my": 9872,
+          "https://www.rhbgroup.com": 14267,
+          "https://www.pbebank.com": 5219,
+          "https://www.publicbank.com.my": 5779
+        }
+      },
+      {
+        "workers": 6,
+        "meta": {
+          "n_urls": 8,
+          "n_completed": 8,
+          "n_deadline_exceeded": 0,
+          "n_failed": 0,
+          "deadline_s": 90.0,
+          "max_workers": 6,
+          "report_latency_ms": 14394,
+          "time_to_first_verdict_ms": 5652,
+          "latency_ms": {
+            "p50": 6286,
+            "p95": 14387,
+            "max": 14387
+          }
+        },
+        "label_counts": {
+          "Unverified": 2,
+          "Likely Safe": 6
+        },
+        "per_url_ms": {
+          "https://www.maybank2u.com.my": 8307,
+          "https://www.cimb.com.my": 5649,
+          "https://www.cimbclicks.com.my": 6286,
+          "https://www.touchngo.com.my": 5951,
+          "https://www.tngdigital.com.my": 7355,
+          "https://www.rhbgroup.com": 14387,
+          "https://www.pbebank.com": 5362,
+          "https://www.publicbank.com.my": 6087
+        }
+      }
+    ]
+  },
+  "speedup": 3.64,
+  "note": "Each mode used a fresh pipeline so the verifier's 300 s TTL cache could not make the second mode look faster. Wall-clock latency depends on third-party API response times and the local network."
+}

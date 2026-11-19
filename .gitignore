@@ -1,0 +1,33 @@
+# --- Secrets (NEVER commit) ---
+.env
+api key.txt
+.streamlit/secrets.toml
+
+# --- Virtual environments ---
+venv/
+.venv/
+
+# --- Python caches ---
+**__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Large / regenerated artifacts ---
+# models/ is NOT ignored: the trained RF/XGBoost models are required at runtime
+# (and by Streamlit Community Cloud, which builds from the repo).
+data/raw/
+models_v2/
+models_backup_*/
+*.log
+
+# --- Runtime database ---
+phishguard.db
+*.db
+*.db-wal
+*.db-shm
+
+# --- Community reports (contains user submissions; regenerated at run time) ---
+data/community_reports.xlsx
+
+# --- Runtime caches (regenerated automatically at run time) ---
+data/processed/openphish_feed.txt

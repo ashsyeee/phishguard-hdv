@@ -1,0 +1,778 @@
+{
+  "target_recall": 0.9,
+  "chosen_threshold": 0.05,
+  "achieved_phishing_recall": 0.9954262282154405,
+  "legit_specificity": 0.9929664059810143,
+  "legit_false_alarm_rate": 0.007033594018985785,
+  "legit_precision_npv": 0.9971352365899437,
+  "confusion": {
+    "tn": 20188,
+    "fp": 143,
+    "fn": 58,
+    "tp": 12623
+  },
+  "sweep": [
+    {
+      "threshold": 0.05,
+      "phishing_recall": 0.9954262282154405,
+      "specificity": 0.9929664059810143,
+      "false_alarm_rate": 0.007033594018985785,
+      "fp": 143,
+      "fn": 58
+    },
+    {
+      "threshold": 0.06,
+      "phishing_recall": 0.9954262282154405,
+      "specificity": 0.9929664059810143,
+      "false_alarm_rate": 0.007033594018985785,
+      "fp": 143,
+      "fn": 58
+    },
+    {
+      "threshold": 0.07,
+      "phishing_recall": 0.9954262282154405,
+      "specificity": 0.9929664059810143,
+      "false_alarm_rate": 0.007033594018985785,
+      "fp": 143,
+      "fn": 58
+    },
+    {
+      "threshold": 0.08,
+      "phishing_recall": 0.9951896538127908,
+      "specificity": 0.9948354729231224,
+      "false_alarm_rate": 0.005164527076877675,
+      "fp": 105,
+      "fn": 61
+    },
+    {
+      "threshold": 0.09,
+      "phishing_recall": 0.9951896538127908,
+      "specificity": 0.9948354729231224,
+      "false_alarm_rate": 0.005164527076877675,
+      "fp": 105,
+      "fn": 61
+    },
+    {
+      "threshold": 0.1,
+      "phishing_recall": 0.9949530794101411,
+      "specificity": 0.9963110520879446,
+      "false_alarm_rate": 0.0036889479120554816,
+      "fp": 75,
+      "fn": 64
+    },
+    {
+      "threshold": 0.11,
+      "phishing_recall": 0.9949530794101411,
+      "specificity": 0.9963110520879446,
+      "false_alarm_rate": 0.0036889479120554816,
+      "fp": 75,
+      "fn": 64
+    },
+    {
+      "threshold": 0.12,
+      "phishing_recall": 0.9945587887390585,
+      "specificity": 0.9981309330578919,
+      "false_alarm_rate": 0.0018690669421081107,
+      "fp": 38,
+      "fn": 69
+    },
+    {
+      "threshold": 0.13,
+      "phishing_recall": 0.9945587887390585,
+      "specificity": 0.9981309330578919,
+      "false_alarm_rate": 0.0018690669421081107,
+      "fp": 38,
+      "fn": 69
+    },
+    {
+      "threshold": 0.14,
+      "phishing_recall": 0.9945587887390585,
+      "specificity": 0.9981309330578919,
+      "false_alarm_rate": 0.0018690669421081107,
+      "fp": 38,
+      "fn": 69
+    },
+    {
+      "threshold": 0.15,
+      "phishing_recall": 0.9945587887390585,
+      "specificity": 0.9981309330578919,
+      "false_alarm_rate": 0.0018690669421081107,
+      "fp": 38,
+      "fn": 69
+    },
+    {
+      "threshold": 0.16,
+      "phishing_recall": 0.9944010724706254,
+      "specificity": 0.99867197875166,
+      "false_alarm_rate": 0.0013280212483399733,
+      "fp": 27,
+      "fn": 71
+    },
+    {
+      "threshold": 0.17,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.18,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.19,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.2,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.21,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.22,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.23,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.24,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.25,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.26,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.27,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.28,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.29,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.3,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.31,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.32,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.33,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.34,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.35,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.36,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.37,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.38,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.39,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.4,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.41,
+      "phishing_recall": 0.9942433562021923,
+      "specificity": 0.9991638384732674,
+      "false_alarm_rate": 0.0008361615267325758,
+      "fp": 17,
+      "fn": 73
+    },
+    {
+      "threshold": 0.42,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.43,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.44,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.45,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.46,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.47,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.48,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.49,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.5,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.51,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.52,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.53,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.54,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.55,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.56,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.57,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.58,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.59,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.6,
+      "phishing_recall": 0.9936913492626764,
+      "specificity": 0.9996556981948749,
+      "false_alarm_rate": 0.0003443018051251783,
+      "fp": 7,
+      "fn": 80
+    },
+    {
+      "threshold": 0.61,
+      "phishing_recall": 0.9934547748600268,
+      "specificity": 0.9997540701391963,
+      "false_alarm_rate": 0.0002459298608036988,
+      "fp": 5,
+      "fn": 83
+    },
+    {
+      "threshold": 0.62,
+      "phishing_recall": 0.9934547748600268,
+      "specificity": 0.9997540701391963,
+      "false_alarm_rate": 0.0002459298608036988,
+      "fp": 5,
+      "fn": 83
+    },
+    {
+      "threshold": 0.63,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.64,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.65,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.66,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.67,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.68,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.69,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.7,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.71,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.72,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.73,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.74,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.75,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.76,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.77,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.78,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.79,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.8,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.81,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.82,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.83,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.84,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.85,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.86,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.87,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.88,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.89,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.9,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.91,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.92,
+      "phishing_recall": 0.9930604841889441,
+      "specificity": 0.9999016280556785,
+      "false_alarm_rate": 9.837194432147952e-05,
+      "fp": 2,
+      "fn": 88
+    },
+    {
+      "threshold": 0.93,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    },
+    {
+      "threshold": 0.94,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    },
+    {
+      "threshold": 0.95,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    },
+    {
+      "threshold": 0.96,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    },
+    {
+      "threshold": 0.97,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    },
+    {
+      "threshold": 0.98,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    },
+    {
+      "threshold": 0.99,
+      "phishing_recall": 0.9910101726993139,
+      "specificity": 1.0,
+      "false_alarm_rate": 0.0,
+      "fp": 0,
+      "fn": 114
+    }
+  ],
+  "n_val_real_rows": 33012,
+  "note": "Threshold chosen on the val split (never test). Lowering the ML threshold raises phishing recall at the cost of more legit false alarms - tune to the mission."
+}

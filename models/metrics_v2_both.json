@@ -1,0 +1,28 @@
+{
+  "training": {
+    "rows": 92295,
+    "phishing_share": 0.6379,
+    "removed_for_leakage": 5513
+  },
+  "internal_domain_grouped": {
+    "n": 23030,
+    "phishing_recall": 0.9734,
+    "legit_specificity": 0.9665,
+    "false_alarm_rate": 0.0335,
+    "auc": 0.9964
+  },
+  "malaysia_holdout": {
+    "n": 28,
+    "phishing_recall": 0.9,
+    "legit_specificity": 0.7778,
+    "false_alarm_rate": 0.2222,
+    "auc": 0.9611
+  },
+  "phiusiil_test": {
+    "n": 33011,
+    "phishing_recall": 0.7534,
+    "legit_specificity": 1.0,
+    "false_alarm_rate": 0.0,
+    "auc": 0.9981
+  }
+}

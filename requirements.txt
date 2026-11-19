@@ -1,0 +1,32 @@
+# PhishGuard-HDV dependencies
+# Versions are pinned to the environment the saved models were trained with
+# (Python 3.14, scikit-learn 1.9.0, xgboost 3.4.1). Unpinning scikit-learn or
+# xgboost can break `joblib.load(models/random_forest.pkl)` after a rebuild.
+# Streamlit Community Cloud: select Python 3.14 in Advanced settings.
+
+# --- Data / ML ---
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+xgboost==3.4.1
+joblib==1.6.0
+
+# --- Networking / verification ---
+requests==2.34.2
+python-whois==0.9.6
+dnspython==2.8.0
+tldextract==5.4.0
+
+# --- LLM (Gemini) ---
+google-genai==2.22.0
+python-dotenv==1.2.3
+
+# --- Dashboard ---
+streamlit==1.57.0
+plotly==6.8.0
+
+# --- Community report review (Excel) ---
+openpyxl==3.1.5
+
+# --- Testing ---
+pytest==9.1.1

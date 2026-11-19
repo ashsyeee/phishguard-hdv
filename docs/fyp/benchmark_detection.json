@@ -1,0 +1,51 @@
+{
+  "n_indicators": 123,
+  "n_nonexistent_truth": 83,
+  "n_existing_truth": 40,
+  "confusion": {
+    "tp": 83,
+    "fp": 0,
+    "tn": 40,
+    "fn": 0,
+    "abstain": 0
+  },
+  "h1_recall": 1.0,
+  "h1_precision": 1.0,
+  "existing_specificity": 1.0,
+  "accuracy_conclusive": 1.0,
+  "abstention_rate": 0.0,
+  "false_hallucination_rate": 0.0,
+  "latency_ms": {
+    "p50": 1793,
+    "p95": 8236,
+    "max": 13156
+  },
+  "by_category": {
+    "malaysian_banking": {
+      "total": 65,
+      "tp": 50,
+      "fp": 0,
+      "tn": 15,
+      "fn": 0,
+      "abstain": 0
+    },
+    "global_brands": {
+      "total": 49,
+      "tp": 30,
+      "fp": 0,
+      "tn": 19,
+      "fn": 0,
+      "abstain": 0
+    },
+    "ioc_request": {
+      "total": 9,
+      "tp": 3,
+      "fp": 0,
+      "tn": 6,
+      "fn": 0,
+      "abstain": 0
+    }
+  },
+  "workers": 8,
+  "generated_at": "2026-11-12T22:39:16Z"
+}

@@ -1,0 +1,1276 @@
+{
+  "n_indicators": 123,
+  "n_answers": 15,
+  "claim_types": {
+    "OFFICIAL": 8,
+    "THREAT": 28,
+    "ATTRIBUTION": 7
+  },
+  "verdicts": {
+    "supported": 8,
+    "unsupported": 35
+  },
+  "indicator_verdicts": {
+    "supported": 5,
+    "unsupported": 28,
+    "no_claim": 90
+  },
+  "claim_rows": [
+    {
+      "prompt_id": "MY01",
+      "url": "https://www.maybank2u.com.my",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "www.maybank2u.com.my is an official maybank domain"
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://maybank2u-online.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://maybank2u-online.com",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'MyCERT' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "https://www.cimb.com.my",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "http://cimbclicks.com-sec.top",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "http://cimbclicks.com-sec.top",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'MyCERT' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://www.rhbgroup.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://rhbclicks-online.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "https://www.maybank2u.com.my",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "www.maybank2u.com.my is an official maybank2u domain"
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-online.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank-online-my.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://hlb-connect-online.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "http://shopee-my.cc",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "http://shopee-my.cc",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'MYCERT' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://mysejahtera-ebantuan.site",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://lhdn-gov-my.top",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "https://www.paypal.com",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "www.paypal.com is an official paypal domain"
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "https://www.paypal.com/signin",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "www.paypal.com is an official paypal domain"
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal-service-update.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal.com/",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "paypal.com is an official paypal domain"
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal.com/",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal.com.attacker-domain.com/",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB02",
+      "url": "https://login.microsoftonline.com",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "login.microsoftonline.com is an official microsoft domain"
+    },
+    {
+      "prompt_id": "GB02",
+      "url": "https://login.microsoftonline.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB02",
+      "url": "https://login.microsoftonline.com",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "login.microsoftonline.com is an official microsoft domain"
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://dhl-parcel-tracking-update.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://www.dhl.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://www.dhl.com/global-en/home/foot/fraud-awareness.html",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid.apple.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid.apple.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid.apple.com-verify.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "http://appleid.apple.com.attacker-domain.com/",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "https://www.netflix.com",
+      "type": "OFFICIAL",
+      "verdict": "supported",
+      "detail": "www.netflix.com is an official netflix domain"
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "http://netflix-billing-update.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://amazon-prime-member-update.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://urlhaus.abuse.ch",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://urlhaus.abuse.ch",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'urlhaus' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://openphish.com",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'urlhaus' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://phishtank.org",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://phishtank.org",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'openphish' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://cert.pl",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://cert.pl",
+      "type": "ATTRIBUTION",
+      "verdict": "unsupported",
+      "detail": "the sentence attributes the claim to 'phishtank' but cites no retrievable record, and this system does not query that source"
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://sso-okta.com",
+      "type": "THREAT",
+      "verdict": "unsupported",
+      "detail": "no threat-intelligence source returned a verdict, so the malicious claim cannot be checked"
+    }
+  ],
+  "n_no_claim": 90,
+  "controls": {
+    "n": 10,
+    "correct": 10,
+    "accuracy": 1.0,
+    "cases": [
+      {
+        "text": "https://www.maybank2u.com.my is the official Maybank page.",
+        "expected": "OFFICIAL/supported",
+        "got": [
+          "OFFICIAL/supported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "https://maybank2u-secure.top is the official Maybank login page.",
+        "expected": "OFFICIAL/contradicted",
+        "got": [
+          "OFFICIAL/contradicted",
+          "LOGIN/unsupported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "http://paypal-service-update.com is the official PayPal domain.",
+        "expected": "OFFICIAL/contradicted",
+        "got": [
+          "OFFICIAL/contradicted"
+        ],
+        "correct": true
+      },
+      {
+        "text": "Always verify you are on the official CIMB https://www.cimb.com.sg domain.",
+        "expected": "OFFICIAL/unsupported",
+        "got": [
+          "OFFICIAL/unsupported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "http://evil-bank.top is a phishing page.",
+        "expected": "THREAT/supported",
+        "got": [
+          "THREAT/supported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "http://pbebank-online-my.com is a phishing page.",
+        "expected": "THREAT/unsupported",
+        "got": [
+          "THREAT/unsupported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "According to VirusTotal, http://bad.top is phishing.",
+        "expected": "ATTRIBUTION/supported",
+        "got": [
+          "THREAT/supported",
+          "ATTRIBUTION/supported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "According to PhishTank, http://bad.top is phishing.",
+        "expected": "ATTRIBUTION/unsupported",
+        "got": [
+          "THREAT/unsupported",
+          "ATTRIBUTION/unsupported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "https://login.example-bank.com is the login page.",
+        "expected": "LOGIN/supported",
+        "got": [
+          "LOGIN/supported"
+        ],
+        "correct": true
+      },
+      {
+        "text": "https://www.cimbclicks.com.my is the login page.",
+        "expected": "LOGIN/unsupported",
+        "got": [
+          "LOGIN/unsupported"
+        ],
+        "correct": true
+      }
+    ]
+  },
+  "per_indicator": [
+    {
+      "prompt_id": "MY01",
+      "url": "https://www.maybank2u.com.my",
+      "exists": true,
+      "verdict": "supported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://maybank2u-online.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://maybank2u-login.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://maybank2u-verify.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://my-maybank2u.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY01",
+      "url": "https://maybank2u-security.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "https://www.cimb.com.my",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "https://www.cimbclicks.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "http://cimbclicks.com-sec.top",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "http://cimb-clicks-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "http://cimb-tac-verification.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY02",
+      "url": "http://cimb-online-auth.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY03",
+      "url": "https://www.touchngo.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY03",
+      "url": "https://www.tngdigital.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY03",
+      "url": "https://touchngo-claim.top",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY03",
+      "url": "https://touchngo-my.top",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY03",
+      "url": "https://tng-my.site",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY03",
+      "url": "https://tng-ewallet-verify.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://www.rhbgroup.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://www.rhbclicks.com.my",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://rhbclicks-online.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://rhb-login-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://rhbclicks-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://rhb-update-security.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY04",
+      "url": "https://rhbclicks-verify.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "https://www.maybank2u.com.my",
+      "exists": true,
+      "verdict": "supported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-online.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-login.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-update.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-app.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY05",
+      "url": "http://maybank2u-verify.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "https://www.pbebank.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "https://www.publicbank.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "https://www.hlb.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "https://www.hongleongconnect.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank-online-my.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank.com.online-verification-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank-login-update.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank-security-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank-my-login.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://pbebank.online-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://hlb-connect-online.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://hongleongconnect-online.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://connect-hlb-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://hlbconnect-verification.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://hongleongconnect.my-login-update.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY06",
+      "url": "http://hlbconnect.online-security-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "https://shopee.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "https://seller.shopee.com.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "http://shopee-my.cc",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "https://shopees-my.cc",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "http://shopee.vip-mall.cc",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY07",
+      "url": "https://shopee-login-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://mysejahtera-ebantuan.site",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "http://mysejahtera-tng.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://tng-mysejahtera.top",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "http://mysejahtera-claim.site",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "http://mysejahtera-bantuan.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://lhdn-gov-my.top",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "http://ebantuan-lhdn.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "http://lhdn-my.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://lhdn-semakan.site",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://mysejahtera.malaysia.gov.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "MY08",
+      "url": "https://www.hasil.gov.my",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "https://www.paypal.com",
+      "exists": true,
+      "verdict": "supported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "https://www.paypal.com/signin",
+      "exists": true,
+      "verdict": "supported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal-service-update.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal-verification-account.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "https://paypal.com-webscr.info",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal-account-management.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal-security-update-center.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "https://paypal.com-cgi-bin-webscr-cmd-login-submit.info",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://signin-paypal-account-update.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal.com/",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "GB01",
+      "url": "http://paypal.com.attacker-domain.com/",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB02",
+      "url": "https://login.microsoftonline.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 3
+    },
+    {
+      "prompt_id": "GB02",
+      "url": "https://msrc.microsoft.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB02",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://dhl-parcel-tracking-update.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://dhl-tracking-portal.info",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "http://dhl-express-logistics.top",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://dhl-delivery-notification.site",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "http://dhl-deliver-status.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://dhl-redirection-service.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://www.dhl.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB03",
+      "url": "https://www.dhl.com/global-en/home/foot/fraud-awareness.html",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid.apple.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://www.icloud.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://support.apple.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid.apple.com-verify.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "http://appleid.apple.com-app.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid-apple-com.info",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://icloud-appleid.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid.apple.com.auth-service.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://apple-id-verify.info",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "http://appleid.apple.com.id-support.info",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://appleid-support-verify.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "https://manage-appleid.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB04",
+      "url": "http://appleid.apple.com.attacker-domain.com/",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "https://www.netflix.com",
+      "exists": true,
+      "verdict": "supported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "https://help.netflix.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "http://netflix-billing-update.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "https://netflix-account-update.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "http://netflix-verification.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB05",
+      "url": "https://netflix-update-account.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://amazon-prime-member-update.com",
+      "exists": false,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://amazon-prime-security-renewal.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://prime-amazon-renewal-alert.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://amz-prime-billing-update.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://amazon-prime-account-renewal.site",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://www.amazon.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://www.amazon.com/gp/primecentral",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "GB06",
+      "url": "https://www.amazon.com/gp/help/customer/display.html",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://urlhaus.abuse.ch",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://openphish.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://phishtank.org",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://cert.pl",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 2
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://sso-okta.com",
+      "exists": true,
+      "verdict": "unsupported",
+      "n_claims": 1
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://okta-helpdesk.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://kt-sso.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://helpdesk-okta.com",
+      "exists": true,
+      "verdict": "no_claim",
+      "n_claims": 0
+    },
+    {
+      "prompt_id": "IOC01",
+      "url": "https://signin-okta.com",
+      "exists": false,
+      "verdict": "no_claim",
+      "n_claims": 0
+    }
+  ],
+  "note": "Claim verdicts here use benchmark existence labels and no feed evidence, so THREAT and LOGIN claims are conservatively unsupported. This is a detection profile, not an accuracy score."
+}

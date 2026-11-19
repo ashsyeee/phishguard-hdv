@@ -1,0 +1,9 @@
+{
+  "provider": "adguard-doh",
+  "n": 123,
+  "unknown": 0,
+  "agreement": 123,
+  "comparable": 123,
+  "disagreements": [],
+  "checked_at": "2026-11-12T22:41:46Z"
+}

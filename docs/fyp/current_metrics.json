@@ -1,0 +1,62 @@
+{
+  "phiusiil": {
+    "name": "PhiUSIIL test (live models/)",
+    "n": 33011,
+    "n_legit": 20276,
+    "n_phish": 12735,
+    "accuracy": 0.9048,
+    "precision": 0.9999,
+    "recall": 0.7534,
+    "specificity": 1.0,
+    "f1": 0.8593,
+    "auc": 0.9981,
+    "cm": {
+      "tn": 20275,
+      "fp": 1,
+      "fn": 3141,
+      "tp": 9594
+    },
+    "ece": 0.10194,
+    "brier": 0.065595
+  },
+  "malaysia": {
+    "name": "Malaysia hold-out (live models/)",
+    "n": 28,
+    "n_legit": 18,
+    "n_phish": 10,
+    "accuracy": 0.8214,
+    "precision": 0.6923,
+    "recall": 0.9,
+    "specificity": 0.7778,
+    "f1": 0.7826,
+    "auc": 0.9611,
+    "cm": {
+      "tn": 14,
+      "fp": 4,
+      "fn": 1,
+      "tp": 9
+    },
+    "ece": 0.171227,
+    "brier": 0.110261
+  },
+  "regression": {
+    "name": "Regression set (live models/)",
+    "n": 94,
+    "n_legit": 44,
+    "n_phish": 50,
+    "accuracy": 0.9149,
+    "precision": 0.8889,
+    "recall": 0.96,
+    "specificity": 0.8636,
+    "f1": 0.9231,
+    "auc": 0.9795,
+    "cm": {
+      "tn": 38,
+      "fp": 6,
+      "fn": 2,
+      "tp": 48
+    },
+    "ece": 0.09464,
+    "brier": 0.061256
+  }
+}
